@@ -1,5 +1,14 @@
+<!-- Product Image -->
+<div class="product-image">
+  {% if product.images.size > 0 %}
+    <img src="{{ product.images.first | img_url: '450x450' }}" alt="{{ product.title }}">
+  {% else %}
+    <p>No image available</p>
+  {% endif %}
+</div>
+
 <!-- Product Title -->
-<h2>{{ product.title }}</h2>
+<h1>{{ product.title }}</h1>
 
 <!-- Product Price -->
 <p>{{ product.price | money_with_currency }}</p>
