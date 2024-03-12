@@ -325,7 +325,7 @@
     "collection_template": {
       "title": "Coleção",
       "empty": "Cadê o produto que estava aqui? O gato comeu!",
-      "use_fewer_filters_html": "Tenta usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a> vai que cola. "
+      "use_fewer_filters_html": "Brincadeira! Tenta <a class=\"{{ class }}\" href=\"{{ link }}\">remover os filtros<\/a> vai que cola. "
     },
     "video": {
       "load_video": "Carregar vídeo: {{ description }}"
