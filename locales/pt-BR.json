@@ -324,7 +324,7 @@
     },
     "collection_template": {
       "title": "Coleção",
-      "empty": "Carambolas!<BR> Ou já ganhamos tudo dessa categoria ou alguém esqueceu de criar essa página.",
+      "empty": "Carambolas!<P> Ou já ganhamos tudo dessa categoria ou alguém esqueceu de criar essa página.",
       "use_fewer_filters_html": "Tenta usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a> vai que cola. "
     },
     "video": {
