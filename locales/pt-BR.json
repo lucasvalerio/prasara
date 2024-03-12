@@ -324,8 +324,7 @@
     },
     "collection_template": {
       "title": "Coleção",
-      "empty": "Carambolas!",
-      "empty_joke": "Ou já ganhamos tudo dessa categoria ou alguém esqueceu de criar essa página.",
+      "empty": "Cadê o produto que estava aqui? O gato comeu!",
       "use_fewer_filters_html": "Tenta usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a> vai que cola. "
     },
     "video": {
