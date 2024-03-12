@@ -33,9 +33,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DALL_E_2024-03-11_01.46.16_-_Create_an_image_of_a_3D-rendered_baby_girl_suitable_for_a_diaper_party_website_banner._The_baby_should_have_a_blend_of_features_from_two_individuals.webp",
-        "height": "medium",
-        "desktop_image_width": "medium",
+        "image": "shopify:\/\/shop_images\/Default_Banner_image_with_a_realistic_brazilian_baby_girl_and_3.jpg",
+        "height": "large",
+        "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
