@@ -33,7 +33,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Default_Banner_image_with_a_realistic_brazilian_baby_girl_and_3.jpg",
         "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
@@ -157,7 +156,7 @@
         "featured_collection_4zq9RT": {
           "type": "featured_collection",
           "settings": {
-            "collection": "fralda"
+            "collection": "fraldas"
           }
         },
         "featured_collection_dRyhpT": {
@@ -179,8 +178,8 @@
         "featured_collection_rUt4Ma"
       ],
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
+        "title": "Ná dúvida? Esses são nossos favoritos!",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
