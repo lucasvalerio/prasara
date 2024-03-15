@@ -908,8 +908,8 @@
         },
         "collection_template": {
             "title": "Coleção",
-            "empty": "Nenhum produto encontrado",
-            "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a>"
+            "empty": "Cadê o produto que estava aqui? O gato comeu!",
+            "use_fewer_filters_html": "Brincadeira! Tenta <a class=\"{{ class }}\" href=\"{{ link }}\">remover os filtros<\/a> vai que cola. "
         },
         "video": {
             "load_video": "Carregar vídeo: {{ description }}"
