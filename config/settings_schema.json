@@ -39,7 +39,6 @@
       {
         "type": "color_scheme_group",
         "id": "color_schemes",
-        "label": "",
         "definition": [
           {
             "type": "color",
@@ -675,7 +674,7 @@
         "type": "color_scheme",
         "id": "collection_card_color_scheme",
         "label": "t:sections.all.colors.label",
-        "default": "scheme-1"
+        "default": "scheme-2"
       },
       {
         "type": "header",
@@ -810,7 +809,7 @@
         "type": "color_scheme",
         "id": "blog_card_color_scheme",
         "label": "t:sections.all.colors.label",
-        "default": "scheme-1"
+        "default": "scheme-2"
       },
       {
         "type": "header",
