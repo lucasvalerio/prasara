@@ -117,7 +117,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "cart_color_scheme": "scheme-1",
+    "cart_color_scheme": "scheme-2",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -149,7 +149,8 @@
       },
       "scheme-2": {
         "settings": {
-          "background_gradient": "radial-gradient(at right bottom, #FFDAAB, #D1D1D1)",
+          "background": "#FFFFFF",
+          "background_gradient": "radial-gradient(rgba(255, 218, 171, 1), rgba(209, 209, 209, 1) 100%)",
           "text": "#2e2a39",
           "button": "#2e2a39",
           "button_label": "#edffa7",
