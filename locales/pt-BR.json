@@ -1,11 +1,11 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Entre no Chá usando a frase secreta:",
-      "login_password_button": "Entrar usando a frase secreta",
-      "login_form_password_label": "Frase Secreta",
-      "login_form_password_placeholder": "Sua frase secreta",
-      "login_form_error": "Frase Secreta incorreta.",
+      "login_form_heading": "Entre no Chá usando sua senha:",
+      "login_password_button": "Entrar usando sua senha",
+      "login_form_password_label": "Senha",
+      "login_form_password_placeholder": "Sua senha",
+      "login_form_error": "Senha incorreta.",
       "login_form_submit": "Entrar",
       "admin_link_html": "Você é o titular da loja? <a href=\"\/admin\" class=\"link underlined-link\">Faça login aqui<\/a>",
       "powered_by_shopify_html": "Esta loja terá a tecnologia da {{ shopify }}"
@@ -216,11 +216,11 @@
   },
   "templates": {
     "404": {
-      "title": "Eita, deu ruim! Essa página não existe, tenta outra aí vai...",
+      "title": "Poxa, no meio da bagunça dos preparativos para a chegada da Sara acho que acabamos perdendo essa página. Tente outra por favor.",
       "subtext": "404"
     },
     "search": {
-      "no_results": "Não foram encontrados resultados para “{{ terms }}”. Verifique a ortografia ou use uma palavra ou frase diferente.",
+      "no_results": "Não conseguimos encontrar “{{ terms }}”. Enquanto damos nossos 3 pulinhos tente um termo diferente.",
       "results_with_count": {
         "one": "{{ count }} resultado",
         "other": "{{ count }} resultados",
@@ -325,7 +325,7 @@
     "collection_template": {
       "title": "Coleção",
       "empty": "Cadê o produto que estava aqui? O gato comeu!",
-      "use_fewer_filters_html": "Brincadeira! Tenta <a class=\"{{ class }}\" href=\"{{ link }}\">remover os filtros<\/a> vai que cola. "
+      "use_fewer_filters_html": "Brincadeira! Tenta <a class=\"{{ class }}\" href=\"{{ link }}\">remover os filtros<\/a> ou fazer uma nova busca. "
     },
     "video": {
       "load_video": "Carregar vídeo: {{ description }}"
@@ -393,9 +393,9 @@
     "account_fallback": "Conta",
     "activate_account": {
       "title": "﻿Ativar conta",
-      "subtext": "Crie uma frase secreta para ativar sua conta.",
-      "password": "Frase Secreta",
-      "password_confirm": "Confirmar Frase Secreta",
+      "subtext": "Crie umsua senha para ativar sua conta.",
+      "password": "Senha",
+      "password_confirm": "Confirmar Senha",
       "submit": "﻿Ativar conta",
       "cancel": "Recusar convite"
     },
@@ -428,10 +428,10 @@
       "cancel": "Cancelar",
       "create_account": "Criar conta",
       "email": "E-mail",
-      "forgot_password": "Esqueceu a frase secreta?",
+      "forgot_password": "Esqueceu sua senha?",
       "guest_continue": "Continuar",
       "guest_title": "Continuar como convidado",
-      "password": "Frase Secreta",
+      "password": "Senha",
       "title": "Fazer login",
       "sign_in": "Fazer login",
       "submit": "Enviar"
@@ -447,24 +447,24 @@
       "none": "Você ainda não enviou nenhum Presente."
     },
     "recover_password": {
-      "title": "Redefinir a frase secreta",
-      "subtext": "Você receberá um e-mail para redefinir a frase secreta",
-      "success": "Você receberá um e-mail com um link para atualizar a frase secreta."
+      "title": "Redefinir sua senha",
+      "subtext": "Você receberá um e-mail para redefinir sua senha",
+      "success": "Você receberá um e-mail com um link para atualizar sua senha."
     },
     "register": {
       "title": "Criar conta",
       "first_name": "Nome",
       "last_name": "Sobrenome",
       "email": "E-mail",
-      "password": "Frase Secreta",
+      "password": "Senha",
       "submit": "Criar"
     },
     "reset_password": {
-      "title": "Redefinir Frase Secreta da conta",
-      "subtext": "Insira uma nova frase secreta",
-      "password": "Frase Secreta",
-      "password_confirm": "Confirmar a frase secreta",
-      "submit": "Redefinir Frase Secreta"
+      "title": "Redefinir Senha da conta",
+      "subtext": "Insira uma novsua senha",
+      "password": "Senha",
+      "password_confirm": "Confirmar sua senha",
+      "submit": "Redefinir Senha"
     },
     "order": {
       "title": "Presente {{ name }}",
@@ -561,13 +561,13 @@
       }
     },
     "password_page": {
-      "login_form_message": "Enter store using password:",
-      "login_form_password_label": "Password",
-      "login_form_password_placeholder": "Your password",
+      "login_form_message": "Entre na loja usando a senha:",
+      "login_form_password_label": "Senha",
+      "login_form_password_placeholder": "Sua senha",
       "login_form_submit": "Enter",
       "signup_form_email_label": "Email",
-      "signup_form_success": "We will send you an email right before we open!",
-      "password_link": "Enter using password"
+      "signup_form_success": "Vamos te enviar um email!",
+      "password_link": "Entre usando a senha"
     }
   },
   "shopify": {
