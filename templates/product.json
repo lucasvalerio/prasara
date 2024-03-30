@@ -71,6 +71,17 @@
     },
     "1711729555c11d6498": {
       "type": "apps",
+      "blocks": {
+        "powr_comments_app_block_ywJWaq": {
+          "type": "shopify:\/\/apps\/powr-comments\/blocks\/app-block\/7c82521d-7526-4c2c-95c0-1b962ac1ef1f",
+          "settings": {
+            "app_id": "d9367d3a_1711757128"
+          }
+        }
+      },
+      "block_order": [
+        "powr_comments_app_block_ywJWaq"
+      ],
       "settings": {
         "include_margins": true
       }
