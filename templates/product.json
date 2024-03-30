@@ -36,6 +36,12 @@
           "type": "description",
           "settings": {
           }
+        },
+        "share_XQ9LnW": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -44,7 +50,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "share_XQ9LnW"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -64,20 +71,6 @@
     },
     "1711729555c11d6498": {
       "type": "apps",
-      "blocks": {
-        "okendo_reviews_carousel_B3Ygnm": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "show_heading": false,
-            "heading": "",
-            "badge_link": "",
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "okendo_reviews_carousel_B3Ygnm"
-      ],
       "settings": {
         "include_margins": true
       }
