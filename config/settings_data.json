@@ -411,7 +411,8 @@
   "platform_customizations": {
     "custom_css": [
       ".image-with-text__content--desktop-left {align-self: flex-start; text-align: left; text-transform: uppercase;}",
-      ".t-bq-quote-jasper-pattern {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/topo_comentarios.webp\"); background-size: cover; \/* Ajusta a imagem de fundo para cobrir todo o contêiner *\/ background-repeat: no-repeat; \/* Evita a repetição da imagem *\/ background-position: center; \/* Centraliza a imagem de fundo *\/}"
+      ".t-bq-quote-jasper-pattern {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/topo_comentarios.webp\"); background-size: cover; \/* Ajusta a imagem de fundo para cobrir todo o contêiner *\/ background-repeat: no-repeat; \/* Evita a repetição da imagem *\/ background-position: center; \/* Centraliza a imagem de fundo *\/}",
+      ".cta-profile-image {background-color: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/prasarinha_logo.png?v=1711313244\");}"
     ]
   }
 }
