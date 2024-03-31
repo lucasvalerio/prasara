@@ -145,29 +145,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_eVGkQg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3NKfYF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Que tal deixar o pessoal estacam muito fáceis",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3NKfYF"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "17096168156dbd15f1": {
       "type": "apps",
       "blocks": {
@@ -234,7 +211,6 @@
     "featured-collection",
     "rich_text_facmhd",
     "collage_QTD78R",
-    "rich_text_eVGkQg",
     "17096168156dbd15f1",
     "collection_list_wQLqBn"
   ]
