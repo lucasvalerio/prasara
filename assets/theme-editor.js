@@ -27,7 +27,6 @@ document.addEventListener('shopify:block:deselect', function (event) {
 
 document.addEventListener('shopify:section:load', () => {
   hideProductModal();
-  toggleCommentForm(); 
   const zoomOnHoverScript = document.querySelector('[id^=EnableZoomOnHover]');
   if (!zoomOnHoverScript) return;
   if (zoomOnHoverScript) {
@@ -36,6 +35,7 @@ document.addEventListener('shopify:section:load', () => {
     zoomOnHoverScript.parentNode.replaceChild(newScriptTag, zoomOnHoverScript);
   }
 });
+
 document.addEventListener('shopify:section:reorder', () => hideProductModal());
 
 document.addEventListener('shopify:section:select', () => hideProductModal());
@@ -45,18 +45,3 @@ document.addEventListener('shopify:section:deselect', () => hideProductModal());
 document.addEventListener('shopify:inspector:activate', () => hideProductModal());
 
 document.addEventListener('shopify:inspector:deactivate', () => hideProductModal());
-
-function toggleCommentForm() {
-    const expandButton = document.getElementById("expandFormButton");
-    if (expandButton) {
-        expandButton.addEventListener("click", function() {
-            const formWrapper = document.querySelector(".cta-frm-content-wrapper");
-            if (formWrapper.style.display === "none" || formWrapper.style.display === "") {
-                formWrapper.style.display = "block";
-                this.style.display = "none"; // Opcional: Ocultar o botão após o clique
-            } else {
-                formWrapper.style.display = "none";
-            }
-        });
-    }
-}
