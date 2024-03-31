@@ -145,6 +145,18 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_BcnDqc": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<button id=\"expandButton\" class=\"cta-frm-action-btn button\">Escrever Comentário<\/button>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "17096168156dbd15f1": {
       "type": "apps",
       "blocks": {
@@ -194,15 +206,6 @@
         "include_margins": true
       }
     },
-    "custom_liquid_BcnDqc": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<button id=\"expandFormButton\" class=\"cta-frm-action-btn button\">Escrever Comentário<\/button>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collection_list_wQLqBn": {
       "type": "collection-list",
       "blocks": {
@@ -249,8 +252,8 @@
     "featured-collection",
     "rich_text_facmhd",
     "collage_QTD78R",
-    "17096168156dbd15f1",
     "custom_liquid_BcnDqc",
+    "17096168156dbd15f1",
     "collection_list_wQLqBn"
   ]
 }
