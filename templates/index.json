@@ -145,18 +145,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_BcnDqc": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<button id=\"expandButton\" class=\"cta-frm-action-btn button\">Escrever Comentário<\/button>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "17096168156dbd15f1": {
       "type": "apps",
       "blocks": {
@@ -165,45 +153,28 @@
           "settings": {
             "cta-embedded-code": "5645322"
           }
-        },
-        "centous_testimony_reviews_app_block_2_Lmxrpz": {
-          "type": "shopify:\/\/apps\/centous-testimony-reviews\/blocks\/app-block-2\/a52dc9ba-1b3e-4187-a5db-b20e529cc4c6",
-          "settings": {
-            "cta-frm-title": "Deixe seu recadinho",
-            "cta-frm-sub-title": "",
-            "cta-frm-name": "Nome",
-            "cta-frm-content": "Recadinho",
-            "cta-frm-profile-img": "Foto",
-            "profile_img_status": true,
-            "profile_img_validator": false,
-            "cta-frm-url": "",
-            "url_status": false,
-            "url_validator": false,
-            "cta-frm-logo": "Logo",
-            "logo_img_status": false,
-            "logo_img_validator": false,
-            "cta-frm-rate": "Rating",
-            "cta-frm-email": "Email",
-            "email_status": true,
-            "email_validator": true,
-            "cta-frm-designation": "",
-            "role_status": false,
-            "role_validator": false,
-            "cta-frm-btn": "Enviar recado",
-            "cta-frm-submit-msg": "Thank you for sharing your experience.",
-            "cta-frm-submit-error": "Something went wrong please try again later."
-          }
         }
       },
       "block_order": [
-        "centous_testimony_reviews_app_block_q9mMWe",
-        "centous_testimony_reviews_app_block_2_Lmxrpz"
+        "centous_testimony_reviews_app_block_q9mMWe"
       ],
       "custom_css": [
         ".t-bq-quote-jasper-pattern {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/topo_comentarios.webp\"); background-size: cover; \/* Ajusta a imagem de fundo para cobrir todo o contêiner *\/ background-repeat: no-repeat; \/* Evita a repetição da imagem *\/ background-position: center; \/* Centraliza a imagem de fundo *\/}"
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_BcnDqc": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<button id=\"escrever-comentario\" class=\"cta-frm-action-btn button\" onclick=\"window.location.href='https:\/\/www.exemplo.com\/comentario';\">Escrever Comentário<\/button>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "collection_list_wQLqBn": {
@@ -252,8 +223,8 @@
     "featured-collection",
     "rich_text_facmhd",
     "collage_QTD78R",
-    "custom_liquid_BcnDqc",
     "17096168156dbd15f1",
+    "custom_liquid_BcnDqc",
     "collection_list_wQLqBn"
   ]
 }
