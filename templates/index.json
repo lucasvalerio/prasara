@@ -171,7 +171,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<button id=\"escrever-comentario\" class=\"cta-frm-action-btn button\" onclick=\"window.location.href='https:\/\/www.exemplo.com\/comentario';\">Escrever Comentário<\/button>",
+        "custom_liquid": "<button id=\"escrever-comentario\" class=\"button button--secondary scroll-trigger animate--slide-in\" onclick=\"window.location.href='https:\/\/www.exemplo.com\/comentario';\">Escrever Comentário<\/button>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
