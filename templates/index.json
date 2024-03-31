@@ -171,12 +171,6 @@
     "17096168156dbd15f1": {
       "type": "apps",
       "blocks": {
-        "powr_comments_app_block_JhGiDr": {
-          "type": "shopify:\/\/apps\/powr-comments\/blocks\/app-block\/7c82521d-7526-4c2c-95c0-1b962ac1ef1f",
-          "settings": {
-            "app_id": "d9367d3a_1711757128"
-          }
-        },
         "centous_testimony_reviews_app_block_q9mMWe": {
           "type": "shopify:\/\/apps\/centous-testimony-reviews\/blocks\/app-block\/a52dc9ba-1b3e-4187-a5db-b20e529cc4c6",
           "settings": {
@@ -185,7 +179,6 @@
         }
       },
       "block_order": [
-        "powr_comments_app_block_JhGiDr",
         "centous_testimony_reviews_app_block_q9mMWe"
       ],
       "custom_css": [
