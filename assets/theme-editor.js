@@ -18,10 +18,6 @@ document.addEventListener('shopify:block:select', function (event) {
   }, 200);
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  toggleCommentForm();
-});
-
 document.addEventListener('shopify:block:deselect', function (event) {
   const blockDeselectedIsSlide = event.target.classList.contains('slideshow__slide');
   if (!blockDeselectedIsSlide) return;
@@ -49,21 +45,3 @@ document.addEventListener('shopify:section:deselect', () => hideProductModal());
 document.addEventListener('shopify:inspector:activate', () => hideProductModal());
 
 document.addEventListener('shopify:inspector:deactivate', () => hideProductModal());
-
-function toggleCommentForm() {
-    console.log("toggleCommentForm called"); // Para debug
-    const expandButton = document.getElementById("expandFormButton");
-    console.log(expandButton); // Verifica se o botão foi selecionado corretamente
-    if (expandButton) {
-        expandButton.addEventListener("click", function() {
-            console.log("Button clicked"); // Para debug
-            const formWrapper = document.querySelector(".cta-frm-content-wrapper");
-            if (formWrapper.style.display === "none" || formWrapper.style.display === "") {
-                formWrapper.style.display = "block";
-                this.style.display = "none"; // Opcional
-            } else {
-                formWrapper.style.display = "none";
-            }
-        });
-    }
-}
