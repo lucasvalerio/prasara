@@ -18,6 +18,10 @@ document.addEventListener('shopify:block:select', function (event) {
   }, 200);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  toggleCommentForm();
+});
+
 document.addEventListener('shopify:block:deselect', function (event) {
   const blockDeselectedIsSlide = event.target.classList.contains('slideshow__slide');
   if (!blockDeselectedIsSlide) return;
