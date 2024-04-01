@@ -168,7 +168,7 @@
     "custom_liquid_eHekt4": {
       "type": "custom-liquid",
       "custom_css": [
-        ".botao-recado{padding-top:0px;}"
+        ".botao-recado {padding: 0px; margin: 0px;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"center collection__view-all scroll-trigger animate--slide-in botao-recado\">\n  <a href=\"\/pages\/mural-de-recados\" class=\"button button--secondary\" aria-label=\"Deixe seu recadinho na nossa página de Mural de Recados\">\n    Deixe seu recadinho\n  <\/a>\n<\/div>",
