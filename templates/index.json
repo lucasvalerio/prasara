@@ -165,18 +165,6 @@
         "include_margins": true
       }
     },
-    "custom_liquid_BcnDqc": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "#escrever-comentario{justify-content:\"center\";}"
-      ],
-      "settings": {
-        "custom_liquid": "<button id=\"escrever-comentario\" class=\"button button--secondary scroll-trigger animate--slide-in\" onclick=\"window.location.href='https:\/\/www.exemplo.com\/comentario';\">Escrever Comentário<\/button>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collection_list_wQLqBn": {
       "type": "collection-list",
       "blocks": {
@@ -224,7 +212,6 @@
     "rich_text_facmhd",
     "collage_QTD78R",
     "17096168156dbd15f1",
-    "custom_liquid_BcnDqc",
     "collection_list_wQLqBn"
   ]
 }

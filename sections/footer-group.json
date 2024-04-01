@@ -44,7 +44,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/qr-code.svg",
             "image_width": 270,
-            "alignment": "center"
+            "alignment": "right"
           }
         },
         "link_list_kP7i8b": {
