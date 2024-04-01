@@ -6,9 +6,70 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1711970018fff09b6b": {
+      "type": "apps",
+      "blocks": {
+        "centous_testimony_reviews_app_block_2_CmXfn6": {
+          "type": "shopify:\/\/apps\/centous-testimony-reviews\/blocks\/app-block-2\/a52dc9ba-1b3e-4187-a5db-b20e529cc4c6",
+          "settings": {
+            "cta-frm-title": "Deixe seu racadinho",
+            "cta-frm-sub-title": "Bem-vindos ao mural de recados da Sarinha! Este é nosso cantinho especial para compartilhar amor, risadas e bons desejos com nossa estrela que está chegando. Cada palavra sua será um tesouro que guardaremos para sempre. Vamos encher esse mural de alegria e amor!",
+            "cta-frm-name": "Nome",
+            "cta-frm-content": "Recadinho",
+            "cta-frm-profile-img": "Foto de perfil",
+            "profile_img_status": true,
+            "profile_img_validator": false,
+            "cta-frm-url": "URL",
+            "url_status": false,
+            "url_validator": false,
+            "cta-frm-logo": "Logo",
+            "logo_img_status": false,
+            "logo_img_validator": false,
+            "cta-frm-rate": "brilha brila estrelinha",
+            "cta-frm-email": "Email",
+            "email_status": true,
+            "email_validator": true,
+            "cta-frm-designation": "",
+            "role_status": false,
+            "role_validator": false,
+            "cta-frm-btn": "Enviar Recadinho",
+            "cta-frm-submit-msg": "Agradecemos de coração cada palavra de carinho para a Sarinha! 💖",
+            "cta-frm-submit-error": "Ops! Parece que nosso sistema engoliu um brinquedo de borracha. Tente novamente mais tarde! 🐤"
+          }
+        }
+      },
+      "block_order": [
+        "centous_testimony_reviews_app_block_2_CmXfn6"
+      ],
+      "custom_css": [
+        ".t-bq-quote-jasper-pattern {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/topo_comentarios.webp\"); background-size: cover; \/* Ajusta a imagem de fundo para cobrir todo o contêiner *\/ background-repeat: no-repeat; \/* Evita a repetição da imagem *\/ background-position: center; \/* Centraliza a imagem de fundo *\/}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17119699282ade222c": {
+      "type": "apps",
+      "blocks": {
+        "centous_testimony_reviews_app_block_JY7Ry6": {
+          "type": "shopify:\/\/apps\/centous-testimony-reviews\/blocks\/app-block\/a52dc9ba-1b3e-4187-a5db-b20e529cc4c6",
+          "settings": {
+            "cta-embedded-code": "5645322"
+          }
+        }
+      },
+      "block_order": [
+        "centous_testimony_reviews_app_block_JY7Ry6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1711970018fff09b6b",
+    "17119699282ade222c"
   ]
 }
