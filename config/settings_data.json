@@ -388,13 +388,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".image-with-text__content--desktop-left {align-self: flex-start; text-align: left; text-transform: uppercase;}",
-      ".t-bq-quote-jasper-pattern {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/topo_comentarios.webp\"); background-size: cover; \/* Ajusta a imagem de fundo para cobrir todo o contêiner *\/ background-repeat: no-repeat; \/* Evita a repetição da imagem *\/ background-position: center; \/* Centraliza a imagem de fundo *\/}",
-      ".cta-profile-image {background-color: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0608\/2520\/6857\/files\/prasarinha_logo.png?v=1711313244\");}",
-      ".cta-slider-wrapper {justify-content: space-between; min-height: 400px; max-height: 400px; \/* Ajuste conforme necessário *\/}",
-      ". {flex-grow: 1; \/* Remova qualquer propriedade aqui que alinhe o texto à direita se existir *\/}",
-      ".rating {align-self: center; \/* Centraliza as estrelas horizontalmente na base *\/ margin-top: auto; \/* Isso empurra as estrelas para a base do container se não houver outro conteúdo abaixo delas *\/}",
-      ".namebox{align-self: center; margin-top: auto;}"
+      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; \/* Garante que o conteúdo use todo o espaço disponível *\/ height: 400px; \/* ou 'auto' se você quer que ajuste ao conteúdo *\/}"
     ]
   }
 }
