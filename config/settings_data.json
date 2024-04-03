@@ -388,11 +388,11 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; \/* Garante que o conteúdo use todo o espaço disponível *\/ height: 400px; \/* ou 'auto' se você quer que ajuste ao conteúdo *\/}",
+      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; \/* Garante que o conteúdo use todo o espaço disponível *\/ min-height: 380px; min-width: 300px;}",
       ".rating {display: none;}",
       ".testimonial-4 {padding: 0;}",
       ".section-template--15915208310857__featured-collection-padding {padding-top: 0;}",
-      ".section-template--15915208310857__custom_liquid_eHekt4-padding{padding:0;}"
+      ".section-template--15915208310857__custom_liquid_eHekt4-padding {padding: 0;}"
     ]
   }
 }
