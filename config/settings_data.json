@@ -113,7 +113,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
-    "currency_code_enabled": false,
+    "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": true,
@@ -388,7 +388,11 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; \/* Garante que o conteúdo use todo o espaço disponível *\/ height: 400px; \/* ou 'auto' se você quer que ajuste ao conteúdo *\/}"
+      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; \/* Garante que o conteúdo use todo o espaço disponível *\/ height: 400px; \/* ou 'auto' se você quer que ajuste ao conteúdo *\/}",
+      ".rating {display: none;}",
+      ".testimonial-4 {padding: 0;}",
+      ".section-template--15915208310857__featured-collection-padding {padding-top: 0;}",
+      ".section-template--15915208310857__custom_liquid_eHekt4-padding{padding:0;}"
     ]
   }
 }
