@@ -111,7 +111,7 @@
         "image_BYwepf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/main-image-1_ba48de6f-765a-4c8d-bd2d-0bd6cd67d617.jpg"
+            "image": "shopify:\/\/shop_images\/fralda_humanizada.jpg"
           }
         },
         "product_y778b7": {
@@ -124,7 +124,7 @@
         "product_mVcP8n": {
           "type": "product",
           "settings": {
-            "product": "fralda-de-ombro",
+            "product": "kit-fraldas-de-pano-1",
             "second_image": false
           }
         }
