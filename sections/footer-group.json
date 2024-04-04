@@ -15,7 +15,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Cadastre seu email.<br\/>*só vamos enviar para as pessoas mais próximas<\/p>"
+            "text": "<p>Cadastre seu email.<\/p>"
           }
         },
         "email-form": {
