@@ -48,44 +48,32 @@
         "padding_bottom": 0
       }
     },
-    "collection_list_wQLqBn": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_4zq9RT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fraldas"
-          }
-        },
-        "featured_collection_dRyhpT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kit-banho"
-          }
-        },
-        "featured_collection_rUt4Ma": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "organizacao"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_4zq9RT",
-        "featured_collection_dRyhpT",
-        "featured_collection_rUt4Ma"
-      ],
+    "featured-collection": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Na dúvida? Esses são nossos favoritos!",
+        "title": "Sugestões de presente: onde o 'cute' encontra o 'custo'",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "fraldas",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 68
       }
     },
     "rich_text_facmhd": {
@@ -189,42 +177,54 @@
         "padding_bottom": 52
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "collection_list_wQLqBn": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_4zq9RT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fraldas"
+          }
+        },
+        "featured_collection_dRyhpT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kit-banho"
+          }
+        },
+        "featured_collection_rUt4Ma": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "organizacao"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_4zq9RT",
+        "featured_collection_dRyhpT",
+        "featured_collection_rUt4Ma"
+      ],
       "settings": {
-        "title": "Sugestões de presente: onde o 'cute' encontra o 'custo'",
+        "title": "Na dúvida? Esses são nossos favoritos!",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "fraldas",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
         "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 56,
-        "padding_bottom": 68
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image-with-text",
-    "collection_list_wQLqBn",
+    "featured-collection",
     "rich_text_facmhd",
     "collage_QTD78R",
     "17096168156dbd15f1",
     "custom_liquid_eHekt4",
-    "featured-collection"
+    "collection_list_wQLqBn"
   ]
 }
