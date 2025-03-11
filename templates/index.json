@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image-with-text": {
@@ -13,7 +22,7 @@
         "caption_FQQQcT": {
           "type": "caption",
           "settings": {
-            "caption": "Junte-se a nós! Escolha um presente e\/ou deixe uma mensagem de carinho.",
+            "caption": "Junte-se a nós! Escolha um presente e/ou deixe uma mensagem de carinho.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -22,7 +31,7 @@
           "type": "button",
           "settings": {
             "button_label": "Enviar Amor",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
@@ -33,7 +42,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner_prasarinha.jpg",
+        "image": "shopify://shop_images/banner_prasarinha.jpg",
         "height": "adapt",
         "desktop_image_width": "large",
         "layout": "text_first",
@@ -82,13 +91,13 @@
         "text_h44VHG": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>\"Nossa missão é proporcionar o desenvolvimento pleno dessa pessoa incrível que virá ao mundo e garantir que o celular dos pais esteja cheio de fotos dela, e não de notificações de atraso no pagamento de faturas.\"<\/strong><\/h4>"
+            "text": "<h4><strong>\"Nossa missão é proporcionar o desenvolvimento pleno dessa pessoa incrível que virá ao mundo e garantir que o celular dos pais esteja cheio de fotos dela, e não de notificações de atraso no pagamento de faturas.\"</strong></h4>"
           }
         },
         "text_b8ebB9": {
           "type": "text",
           "settings": {
-            "text": "<p>Ju e Lucas | Mãe e Pai da Sara<\/p>"
+            "text": "<p>Ju e Lucas | Mãe e Pai da Sara</p>"
           }
         }
       },
@@ -111,7 +120,7 @@
         "image_BYwepf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fralda_humanizada.jpg"
+            "image": "shopify://shop_images/423b5f3fca0279991e85f551bbfaeb84.jpg"
           }
         },
         "product_y778b7": {
@@ -147,20 +156,7 @@
     },
     "17096168156dbd15f1": {
       "type": "apps",
-      "blocks": {
-        "centous_testimony_reviews_app_block_q9mMWe": {
-          "type": "shopify:\/\/apps\/centous-testimony-reviews\/blocks\/app-block\/a52dc9ba-1b3e-4187-a5db-b20e529cc4c6",
-          "settings": {
-            "cta-embedded-code": "5645322"
-          }
-        }
-      },
-      "block_order": [
-        "centous_testimony_reviews_app_block_q9mMWe"
-      ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
@@ -171,7 +167,7 @@
         ".botao-recado {padding: 0px; margin: 0px;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"center collection__view-all scroll-trigger animate--slide-in botao-recado\">\n  <a href=\"\/pages\/mural-de-recados\" class=\"button button--secondary\" aria-label=\"Deixe seu recadinho na nossa página de Mural de Recados\">\n    Deixe seu recadinho\n  <\/a>\n<\/div>",
+        "custom_liquid": "<div class=\"center collection__view-all scroll-trigger animate--slide-in botao-recado\">\n  <a href=\"/pages/mural-de-recados\" class=\"button button--secondary\" aria-label=\"Deixe seu recadinho na nossa página de Mural de Recados\">\n    Deixe seu recadinho\n  </a>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

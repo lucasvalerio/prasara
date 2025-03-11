@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo-pra-sarinha.png",
+    "logo": "shopify://shop_images/logo-pra-sarinha.png",
     "logo_width": 200,
-    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
+    "favicon": "shopify://shop_images/favicon-32x32.png",
     "type_header_font": "quicksand_n7",
     "heading_scale": 130,
     "type_body_font": "harmonia_sans_n4",
@@ -133,9 +142,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -350,7 +357,7 @@
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": "100",
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -388,7 +395,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; \/* Garante que o conteúdo use todo o espaço disponível *\/ min-height: 380px; min-width: 300px;}",
+      ".testimonial-box {display: flex; flex-direction: column; justify-content: space-between; /* Garante que o conteúdo use todo o espaço disponível */ min-height: 380px; min-width: 300px;}",
       ".rating {display: none;}",
       ".testimonial-4 {padding: 0;}",
       ".section-template--15915208310857__featured-collection-padding {padding-top: 0;}",
